@@ -1,0 +1,163 @@
+.screen{
+  background-color: #ff4949;
+  width:500px;
+  height:auto;
+  border-radius: 30px;
+  box-shadow: 0 2px 15px -5px #777;
+  padding: 15px;
+  margin-top:30px;
+}
+
+#screen1{
+  background-color: #313848;
+  width:450px;
+  height:550px;
+  border-radius: 5px;
+  box-shadow: 0 2px 15px -5px #777;
+  padding: 15px;
+  margin-top:5px;
+}
+
+
+h1{
+  color: #ffffff;
+  font-family: 'Righteous', cursive;
+}
+
+h2{
+  color: #ffffff;
+  font-family: 'Righteous', cursive;
+  font-size: 1em;
+}
+body{
+  background-color: #fcf9ec;
+}
+#PlayGame{
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #c10000;
+  margin: 20px;
+  color: #c10000;
+  border-style: solid;
+  outline: none;
+  border-width: medium;
+}
+#PlayGame:hover{
+  background-color: #c10000;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #c10000;
+  margin: 20px;
+  color: #ffffff;
+  border-style: solid;
+  outline: none;
+  transition: 0.8s;
+}
+#PlayGame:active{
+  background-color: #c10000;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #c10000;
+  margin: 20px;
+  color: #ffffff;
+  border-style: solid;
+  outline: none;
+  transition: 0.8s;
+  position: relative;
+  top:2px;
+}
+
+#PlayGame1{
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #ffffff;
+  margin: 20px;
+  color: #ffffff;
+  border-style: solid;
+  outline: none;
+  border-width: medium;
+}
+#PlayGame1:hover{
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #ffffff;
+  margin: 20px;
+  color: #000000;
+  border-style: solid;
+  outline: none;
+  transition: 0.8s;
+}
+#PlayGame1:active{
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #ffffff;
+  margin: 20px;
+  color: #000000;
+  border-style: solid;
+  outline: none;
+  transition: 0.8s;
+  position: relative;
+  top:2px;
+}
+
+#loadtext{
+  margin-top:40%;
+}
+#inst{
+  font-family: 'Heebo', sans-serif;
+}
+
+#myCanvas{
+  background-color: #313848;
+  width:450px;
+  height:550px;
+  border-radius: 5px;
+  box-shadow: 0 2px 15px -5px #777;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+#Restart{
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #0028ff;
+  margin: 20px;
+  color: #0028ff;
+  border-style: solid;
+  outline: none;
+  border-width: medium;
+  display: none;
+  position: relative;
+  bottom: 588;
+  left:185;
+}
+#Restart:hover{
+  background-color: #0028ff;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #0028ff;
+  margin: 20px;
+  color: #ffffff;
+  border-style: solid;
+  outline: none;
+  transition: 0.8s;
+}
+#Restart:active{
+  background-color: #0028ff;
+  border-radius: 6px;
+  padding: 5px 20px;
+  border-color: #0028ff;
+  margin: 20px;
+  color: #ffffff;
+  border-style: solid;
+  outline: none;
+  transition: 0.8s;
+  position: relative;
+  bottom: 585;
+  left:185;
+}
